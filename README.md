@@ -1,11 +1,10 @@
 # React SVG Reveal Animation
 
+## Description
+React SVG Reveal is a lightweight and customizable React component that allows you to create SVG reveal animations. With this component, you can gradually reveal text in a visually appealing way, adding an element of suspense and elegance to your web projects.
+
 ![intro](https://raw.githubusercontent.com/TommyRiquet/react-svg-reveal/main/static/intro.gif)
 
-
-## Description
-
-React SVG Reveal is a lightweight and customizable React component that allows you to create SVG reveal animations. With this component, you can gradually reveal text in a visually appealing way, adding an element of suspense and elegance to your web projects.
 
 ## Features
 
@@ -17,8 +16,8 @@ React SVG Reveal is a lightweight and customizable React component that allows y
 
 ## Installation
 
-    First, make sure you have Node.js and npm installed on your machine.
-    Clone this repository to your local machine or install it as a dependency in your existing React project using npm or yarn.
+- First, make sure you have Node.js and npm installed on your machine.
+- Clone this repository to your local machine or install it as a dependency in your existing React project using npm or yarn.
 
 
 ## Clone Repository (if starting a new project)
@@ -51,12 +50,12 @@ import SVGReveal from 'react-svg-reveal';
 function App() {
   return (
     <div>
-      <SVGReveal
-	  	width={750},
-		height={600},
-		strokeWidth={2},
-		viewBox='0 0 800 100',
-		path={['M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z']}
+      	<SVGReveal
+			width={750},
+			height={600},
+			strokeWidth={2},
+			viewBox='0 0 800 100',
+			path={['M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z']}
 		/>
     </div>
   );
@@ -69,17 +68,17 @@ function App() {
 function App() {
   return (
     <div>
-      <SVGReveal
-        width={750},
-		height={600},
-		strokeWidth={2},
-		viewBox='0 0 800 100',
-		path={['M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z']}
-		backgroundColor='black'
-		stroke='white'
-		strokeWidth={2}
-		strokeLineCap='square'
-      />
+      	<SVGReveal
+			width={750},
+			height={600},
+			strokeWidth={2},
+			viewBox='0 0 800 100',
+			path={['M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z']}
+			backgroundColor='black'
+			stroke='white'
+			strokeWidth={2}
+			strokeLineCap='square'
+		/>
     </div>
   );
 }
